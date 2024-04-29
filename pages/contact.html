@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/Logo.svg" alt="logo">
+                </a>
+            </div>
+            <div class="header-content__right">
+                <ul class="header-content__links">
+                    <li class="custom-li">
+                        <button class="lang-btn active">en</button>
+                    </li>
+                    <li class="custom-li">
+                        <button class="lang-btn">ru</button>
+                    </li>
+                    <li class="custom-li">
+                        <button class="lang-btn">ua</button>
+                    </li>
+                    <li><a href="">Kyiv, Mechnikova str, 14/1</a></li>
+                    <li><a href="tel:0800 211 927">0800 211 927</a></li>
+                    <li><a href=""><img src="./images/Facebook-header.svg" alt=""></a></li>
+                </ul>
+                <nav>
+                    <ul class="header-content__links">   
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">team</a></li>
+                        <li><a href="#">publications</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>  
+    <!-- <li>Kyiv, Mechnikova str, 14/1</li>
+    <li>0800 211 927</li>
+    <li><img src="./images/Facebook-Header.svg" alt="facebook_logo"></li>      -->
+  </header>
+    <section>
+      <div class="container">
+        <div class="contact-block">
+          <div class="lc">
+            <h3>Kyiv, Mechnikova str, 14/1</h3>
+            <div>
+              <a href="tel:+380800 211 927">0800 211 927</a>
+            </div>
+            <div>
+              <a href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+            </div>
+            <div>
+              <img class="bef-logo" src="../images/Facebook-header.svg" alt="">
+              <p>Our page on facebook</p>
+            </div>
+        </div>
+    
+        <form class="contact-form" action="#">
+          <h1>We would like to help you</h1>
+          <input class="input" placeholder="Name" name="name" required type="text" maxlength="36" id="test" pattern="[a-zA-Z]*">
+          <textarea class="input" placeholder="Message" name="message" maxlength="400"></textarea>
+          <h3 class="caps">How to answer you?</h3>
+          <input class="input" name="phone" placeholder="Phone number" type="tel" maxlength="16">
+          <input class="input" name="email" placeholder="Email" maxlength="60" type="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+          <button class="primary" type="submit" aria-label="Send request">Send message</button>
+        </form>
+      </div>
+      <div class="result"></div>
+    </div>
+  </section>
+</body>
+</html>

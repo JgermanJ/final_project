@@ -1,0 +1,57 @@
+@import '_base.scss';
+
+header{
+    position: fixed;
+    background: transparent;
+    width: 100%;
+    left: 0;
+    top: 0;
+    .header-content{
+        height: 116px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        &__links{
+            display: flex;
+            align-items: center;
+            list-style-position: inside;
+            .custom-li{
+                list-style: none;
+            }
+        }
+    }
+}
+
+.contact-form{
+    max-width: 50%;
+    width: 100%;
+    background: $grey;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    h1{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .caps{
+        margin-top: 15px;
+        color: $grayText;
+    }
+    button{
+        margin-top: 15px;
+        width: 100%;
+    }
+}
+.contact-block{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 60px;
+    display: flex;
+    .lc{
+        width: 100%;
+        max-width: 50%;
+    }
+}
